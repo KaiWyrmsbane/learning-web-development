@@ -1,0 +1,16 @@
+<!-- this is just the code we wrote for the navbar -->
+<!-- the extension to the classes is the bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="">tindog</a>
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">download</a>
+        </li>
+    </ul>
+</nav>
