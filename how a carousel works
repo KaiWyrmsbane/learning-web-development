@@ -20,3 +20,64 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<p>playing with the carousel in bootstrap</p>
+<div id="mySlideShow" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="1000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h1>hello</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>how</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>are</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>you</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>doing</h1>
+        </div>
+    </div>
+</div>
+
+<div id="mySecondSlideShow-carousel" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+        <div class="carousel-item pop active" style="background-color: red;">
+            <h1>hello</h1>
+        </div>
+        <div class="carousel-item pop" style="background-color: yellow;">
+            <h1>how</h1>
+        </div>
+        <div class="carousel-item pop" style="background-color: green;">
+            <h1>are</h1>
+        </div>
+        <div class="carousel-item pop" style="background-color: blue;">
+            <h1>you</h1>
+        </div>
+        <div class="carousel-item pop" style="background-color: gray;">
+            <h1>doing</h1>
+        </div>
+    </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#mySecondSlideShow-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mySecondSlideShow-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+</div>
+<!--not finished yet-->
+<!--sing a song-->
+<div id="myThirdSlideShow" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="0500">
+    <div class="carousel-inner">
+        <div class="carousel-item song active" style="background-color: cyan;">
+            <p>IT'S PEANUT BUTTER JELLY TIME</p>
+        </div>
+        <div class="carousel-item song" style="background-color: purple;">
+            <p>IT'S PEANUT BUTTER JELLY TIME</p>
+        </div>
+    </div>
+</div>
