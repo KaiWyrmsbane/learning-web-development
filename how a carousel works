@@ -1,4 +1,24 @@
 <!-- put into codeply -->
+
+<!--bare bones to make the carousel work with buttons-->
+<div id="slideshow" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h1>I love programming</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>also love to exercise</h1>
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#slideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+   <button class="carousel-control-next" data-bs-target="#slideshow" data-bs-slide="next">
+       <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!--all the other stuff isn't needed but 
 <!--example 1-->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="false">
   <div class="carousel-inner">
@@ -115,5 +135,25 @@
      <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--example 7-->
+<div id="slideshow" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h1>I love programming</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>also love to exercise</h1>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
     </button>
 </div>
