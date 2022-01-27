@@ -1,4 +1,5 @@
 <!-- put into codeply -->
+<!--example 1-->
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="false">
   <div class="carousel-inner">
     <div class="carousel-item active" style="background-color: red;">
@@ -21,6 +22,7 @@
   </button>
 </div>
 
+<!--example 2-->
 <p>playing with the carousel in bootstrap</p>
 <div id="mySlideShow" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="1000">
     <div class="carousel-inner">
@@ -42,6 +44,7 @@
     </div>
 </div>
 
+<!--example 3-->
 <div id="mySecondSlideShow-carousel" class="carousel slide" data-bs-ride="false">
     <div class="carousel-inner">
         <div class="carousel-item pop active" style="background-color: red;">
@@ -68,10 +71,23 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
+      
+      <!--example 4-->
+      <div id="slideshow" class="carousel-there" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <h1>hello</h1>
+        </div>
+        <div class="carousel-item">
+            <h1>there</h1>
+        </div>
+    </div>
 </div>
-<!--not finished yet-->
+</div>
+
+<!--example 5-->
 <!--sing a song-->
-<div id="myThirdSlideShow" class="carousel-slide" data-bs-ride="carousel" data-bs-interval="0500">
+<div id="myThirdSlideShow" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
     <div class="carousel-inner">
         <div class="carousel-item song active" style="background-color: cyan;">
             <p>IT'S PEANUT BUTTER JELLY TIME</p>
