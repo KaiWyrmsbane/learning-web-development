@@ -1,0 +1,41 @@
+"put into codeply"
+HTML
+-----------------------------
+<body>
+<div class="red">
+    <p>red</p>
+</div>
+<div class="yellow">
+    <p>yellow</p>
+</div>
+<div class="blue">
+    <p>blue</p>
+</div>
+</body>
+ ----------------------------
+ CSS
+ ----------------------------
+ div{
+    height:100px;
+    width:100px;
+    border: 1px solid;
+    position:absolute;
+}
+p{
+    font-weight: bold;
+    color: black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+    left:40px;
+    top:40px;
+}
+.yellow{
+    background-color: yellow;
+    left:20px;
+    top:20px;
+}
+----------------------------
