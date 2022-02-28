@@ -1,0 +1,44 @@
+----------------------------------JavaScript / ES6--------------------------------------
+-----Data types-----
+-strings EX: "hello"
+-numbers EX: 12345
+-boolean EX: true or false
++If you ever question the data type of something then you can use typeof which returns the data type
+ of the content that is given to the keyword.
+
+-----Adding behaviour to websites-----
++https://github.com/rwaldron/idiomatic.js
++we can use snippets in the chrome browser to test code
++ alert(); Gives an alert to the user
++ prompt(); Enables the user to enter something into the prompt when you run the code
++These are known as functions which give functionality
++ alert:function ("hello"):message ;:end
+
+-----JavaScript Variables-----
++var is the way for the computer to store information when something is assigned to var
+
+-----Naming Conventions-----
++be sure to give vairables meaningful names
++var can't start with a number(1234)
++letters, numbers, $, _ are the only things allowed when naming variables
++use camelCasing  EX: helloThere, bogBag, userName, userInput
+
+-----String concatenation-----
++can combine string "a"+"b"="ab" 
++can also combine variables and string by doing the following ("nice to meet you, " + userName);
+
+-----Slicing and Case changing for strings-----
++var name = "Angela"
+-name.slice(starting_position, ending_position)
++slicing can be used to split-up strings .slice(number(SP), number(EP)) SP:starting_position EP:ending_position
++word.toUpperCase(); capitalizes word
++word.toLowerCase(); lower cases a word
+EX: var name = "john"; name.toUpperCase(); = "JOHN" name.toLowerCase(); = "john"
+
+-----Basic Arithmetic and the Modulo Operator-----
++Addition var a = 2+3; a = 5
++Subtraction var b = 10-2; b = 8
++Multiplication var c = 2*3; c = 6
++Division var d = 6/2; d = 3
++Modulo var e = 9%6; e = 3 modulo is division but returns the remainder not the actual outcome of the division
++modulo symbol ( % )
