@@ -1,0 +1,16 @@
+//slicing challenge
+//this will allow a user to enter a comment into the prompt
+//prompt will limit the user to 140 characters
+var tweet = prompt("Enter a comment:");
+var tweetUnder140 = tweet.slice(0,140);
+alert("you said" +tweetUnder140);
+
+
+//casing challenge video:111
+//have the user enter any name
+//no matter what they enter have the 1st letter capital and the rest lower case
+var userInput = prompt("What is your name:");
+var inputPart1 = userInput.slice(0,1).toUpperCase();
+var inputPart2 = userInput.slice(1).toLowerCase();
+alert("hello, " + inputPart1 + inputPart2);
+
