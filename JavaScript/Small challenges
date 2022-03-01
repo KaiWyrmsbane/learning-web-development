@@ -1,3 +1,19 @@
+//variable exercise
+function test() {
+    var a = "3";
+    var b = "8";
+//Write your code on lines 7 - 9:
+[a,b] = [b,a];
+    console.log("a is " + a);
+    console.log("b is " + b);
+}
+
+//tweet challenge
+var userInput = prompt("Enter a tweet:");
+var userInputLength = userInput.length;
+alert("You've used " + userInputLength + " characters, and have " + (140-userInputLength) + " left");
+
+
 //slicing challenge
 //this will allow a user to enter a comment into the prompt
 //prompt will limit the user to 140 characters
@@ -14,3 +30,8 @@ var inputPart1 = userInput.slice(0,1).toUpperCase();
 var inputPart2 = userInput.slice(1).toLowerCase();
 alert("hello, " + inputPart1 + inputPart2);
 
+
+//dog and human age challenge
+var dogAge = prompt("How old is your dog:");
+var humanAge = (dogAge - 2)*4+21;
+alert("that translate to " + humanAge + " in human years!");
