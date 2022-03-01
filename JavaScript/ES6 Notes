@@ -42,3 +42,12 @@ EX: var name = "john"; name.toUpperCase(); = "JOHN" name.toLowerCase(); = "john"
 +Division var d = 6/2; d = 3
 +Modulo var e = 9%6; e = 3 modulo is division but returns the remainder not the actual outcome of the division
 +modulo symbol ( % )
+
+
+-----Incrementing, and Decrementing-----
+x=x+1; = x++;
+x=x-1; = x--;
++= add then reinitialize the variable x
+/= divide then reinitialize the variable x
+*= multiply then reinitialize the variable x
+-= subtract then reinitialize the variable x
