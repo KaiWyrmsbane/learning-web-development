@@ -1,0 +1,84 @@
+<html>
+<body>
+    <script>
+        //---------------------------variables
+        // let m = "yes";
+        // var n = "no";
+
+        //-----------------------------------operators
+        //+, /, *, -, %, =, ==, ===
+
+        //--------------------------------functions arguments
+        //function (arguments go in here){}
+
+        //-------------------------------return values from functions
+        // function functionExample(){
+        //     return "hello";
+        // }
+
+        //---------------------------------------object literals
+        // var firstName = "James";
+        // var lastName = "VanMeter";
+        // var email = "jamesdudu23@gmail.com"
+
+        // var person = {
+        //     firstName: "James",
+        //     lastName: "VanMeter",
+        //     email: "jamesdudu23@gmail.com",
+        //     greet: function(){
+        //         console.log("My name is " + this.firstName);
+        //     }
+        // };
+        // person.greet();
+        // console.log(person.greet);
+
+        //------------------------------------------Arrays
+        // var array = [1,2,3,4];
+        // console.log(array);
+
+        //can also mix type within array
+        // var array = [100, true, "JavaScript"];
+        // console.log(array);
+
+        //accessing the index of the array
+        // var array = [1,2,3,4];
+        // console.log(array[array index here]);
+
+        //you can use commands in the console for arrays
+        //array.length, array.push, array.reverse, etc
+
+        //-----------------------------------loops
+        //while loop
+        // var count = 0;
+        // var max = 10;
+        // while (count <= max){
+        //     console.log(count);
+        //     count++;
+        // }
+
+        //for loop
+        //alot like C++ and C#
+        // var count = 0;
+        // var max = 10;
+        // for(let i = 0; i <= 10; i++){
+        //     console.log(i);
+        // }
+
+        //could also do something like this
+        // var numbers = [1,2,3]
+        // for(var i = 0; i < numbers.length; i++){
+        //     will tell you the value of the array
+        //     console.log("value is: " + numbers[i]);
+        //     will tell you the indexes of the array
+        //     console.log("Index is: " + i);
+        // }
+
+        //foreach loop
+        // var days = ["mon", "tue", "wed"];
+        // days.forEach(function(day, index){
+        //     console.log(`day ${day}, index: ${index}`);
+        // });
+
+    </script>
+</body>
+</html>
